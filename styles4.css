@@ -1,0 +1,200 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* BASE BODY */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* CABECERA */
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 20px;
+    color: white;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: orange;
+  }
+  
+  /* Botones */
+  .boton {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .boton button {
+    background: transparent;
+    color: orange;
+    border: 2px solid orange;
+    padding: 5px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .boton .register {
+    background-color: white;
+    color: orange;
+  }
+  
+  .boton .register:hover {
+    background-color: orange;
+    color: white;
+  }
+  
+  .boton .login:hover {
+    background-color: white;
+    color: orange;
+  }
+  
+  /* CONTENEDOR DE CONTACTO */
+  .contact-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Información de Contacto */
+  .contact-info {
+    flex: 1;
+    padding: 20px;
+    max-width: 45%;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+  }
+  
+  .contact-info h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Formulario de Contacto */
+  .contact-form {
+    flex: 1;
+    padding: 20px;
+    max-width: 45%;
+  }
+  
+  .contact-form label {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+
+/* Sección "Aceptar condiciones" */
+.conditions {
+    display: flex;
+    align-items: center; /* Centra verticalmente el checkbox y el texto */
+    gap: 5px; /* Espacio pequeño entre el checkbox y el texto */
+    margin-bottom: 15px; /* Espacio inferior para separar del botón */
+  }
+  
+  .conditions input {
+    cursor: pointer; /* Hace que el checkbox sea interactivo */
+  }
+  
+  .conditions label {
+    font-size: 14px; /* Tamaño de texto acorde al diseño */
+    color: #333;
+    cursor: pointer; /* Permite clic en el texto */
+  }
+  
+  /* Botón de Enviar */
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Espacio superior para separar del checkbox */
+    display: block; /* Asegura que esté en una nueva línea */
+    text-align: center; /* Centra el texto dentro del botón */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
